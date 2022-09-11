@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::before{
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    top: 0;
+    content: "";
+    opacity: 0.7;
+    background: url('https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/1853/2021/1/13/Campus%20View%20of%20VIT%20University%20Bhopal_Campus-View.jpg') no-repeat center center;
+    background-size: 230vh;
+} 
+.bg{
+    position: absolute;
+    top: 22vh;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.form-container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px  black;
+}
+details a{
+    text-decoration: none;
+
+}
+.form-check button{
+    margin: 10px;
+}
+.all-mail{
+    text-align: center;
+}
+@media screen and (max-width:1024px) {
+
+    
+}
